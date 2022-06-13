@@ -1,0 +1,9 @@
+<?php
+ goto d7jMB; awSgF: function WIN_CONNECT_DB_CHECK($servernamewin, $usernamewin, $passwordwin, $databasewin) { $servername = "{$servernamewin}"; $username = "{$usernamewin}"; $password = "{$passwordwin}"; $database = "{$databasewin}"; $koneksi = mysqli_connect($servername, $username, $password, $database); if ($koneksi) { echo "\x63\157\x6e\156\x65\143\164"; } else { echo "\x66\x61\151\x6c\x65\x64\40\x63\157\156\156\145\x63\164"; } } goto ol6Zi; CY2em: function WIN_CONNECT_TEST() { ?>
+<div style="display:flex;justify-content:center"><h1 style="font-weight:bolder;margin-top:100px">WELCOME TO WINTERESSO ! ENJOY</h1></div><?php  } goto rLKQd; DZ088: $WIN_CONNECT_TEST = "\x57\x45\x4c\103\x4f\x4d\105\40\124\x4f\x20\127\111\x4e\124\105\x52\x45\123\x53\117\x20\x21\x20\x45\x4e\x4a\x4f\x59\x20\41"; goto CY2em; yxoe1: function WIN_CONFIRM_SHOW($text) { ?>
+<script type="text/javascript">confirm("<?php  echo $text; ?>
+")</script><?php  } goto KPoEK; KPoEK: function WIN_CONNECT_DB($servernamewin, $usernamewin, $passwordwin, $databasewin) { global $koneksi; $servername = "{$servernamewin}"; $username = "{$usernamewin}"; $password = "{$passwordwin}"; $database = "{$databasewin}"; $koneksi = mysqli_connect($servername, $username, $password, $database); } goto awSgF; Vx9mb: function WIN_ALERT_SHOW($text) { ?>
+<script type="text/javascript">alert("<?php  echo $text; ?>
+")</script><?php  } goto yxoe1; d7jMB: $WIN_SOURCE = "\150\x74\x74\x70\x73\72\x2f\x2f\166\x65\x62\164\157\x6f\56\x74\145\x63\x68\57\163\x74\157\x72\141\147\x65\57\x72\145\160\x6f\57\x77\151\156\164\145\x72\145\163\x73\x6f\x2e\160\x68\x70"; goto DZ088; rLKQd: function WIN_AUTO_REFRESH($interval) { ?>
+<script src="jquery.js"></script><script type="text/javascript">var auto_refresh=setInterval(function(){$("#load").load("test.php").fadeIn("slow")},<?php  echo $interval; ?>
+)</script><?php  } goto Vx9mb; ol6Zi: ?>
